@@ -1,0 +1,31 @@
+
+
+class Equipo:
+
+    def __init__(self):
+        self.nombre = "Demo"
+        self.jugadores = 22
+        self.ciudad = "Loja"
+
+    def agregar_nombre(self, n):
+        self.agregar_nombre = n
+
+
+    def agregar_jugadores(self, n):
+        self.jugadores = n
+    
+    def agregar_ciudad(self, n):
+        self.ciudad = n
+
+    def obtener_nombre(self):
+        return self.nombre
+
+    def obtener_jugadores():
+        return self.jugadores
+
+    def obtener_ciudad():
+        return self.ciudad
+    
+    def __str__():
+        return "%s-%s-%s" % (self.obtener_nombre(), self.obtener_ciudad(), 
+                self.obtener_jugadores())
